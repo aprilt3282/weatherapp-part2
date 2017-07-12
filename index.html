@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html lan = "en">
+    <head>
+      <meta charset="utf-8">
+      <title>Weather App</title>
+      <script type="text/javascript" src="weather.js"></script>
+    </head>
+    <body>
+      <fieldset>
+        <legend> Find out what the weather is in Seattle and London</legend>
+          <button type="button" id="seattle" onclick="figWeather(47.6762,-122.3182)">Seattle</button>
+          <button type="button" id= "london" onclick="figWeather(51.5074,0.1278)">London</button>
+          <button type="button" id="currentlocalWeather" onclick="navigator.geolocation.getCurrentPosition(getLocation)">My Current weather</button>
+  </fieldset>
+  <div id="weather"></div>                                                               
+    </body>
+  </html>
+
+
+
+
