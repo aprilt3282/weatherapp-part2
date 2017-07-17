@@ -1,0 +1,38 @@
+@import "variables";
+
+html{
+  font: normal normal 16px/1.2 Helvetica, sans-serif;
+}
+
+#seattle{
+  background-color: $black;
+  color: $white;
+  
+  &:active{
+    color: $black;
+  }
+  &:focus,
+  &:hover
+  {background: $pink;}
+  
+}
+
+#london{
+  background-color: $maroon;
+  color: $white;
+  
+  &:active{
+    color:$black;
+  }
+  
+  &:hover{background: $pink;}
+}
+
+#currentlocalWeather{
+  background-color: $teal;
+  color: $white;
+  
+  &:active{
+    color:$black;
+  }
+}

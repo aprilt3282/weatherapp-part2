@@ -1,0 +1,26 @@
+html {
+  font: normal normal 16px/1.2 Helvetica, sans-serif; }
+
+#seattle {
+  background-color: #111;
+  color: #FFFFFF; }
+  #seattle:active {
+    color: #111; }
+  #seattle:focus, #seattle:hover {
+    background: 255, 255, 0; }
+
+#london {
+  background-color: #800000;
+  color: #FFFFFF; }
+  #london:active {
+    color: #111; }
+  #london:hover {
+    background: 255, 255, 0; }
+
+#currentlocalWeather {
+  background-color: #008080;
+  color: #FFFFFF; }
+  #currentlocalWeather:active {
+    color: #111; }
+
+/*# sourceMappingURL=new-weather.css.map */
