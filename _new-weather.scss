@@ -4,6 +4,8 @@ html{
   font: normal normal 16px/1.2 Helvetica, sans-serif;
 }
 
+$weather: sunny,rainy,cloudy, snowy;
+
 #seattle{
   background-color: $black;
   color: $white;
@@ -36,3 +38,16 @@ html{
     color:$black;
   }
 }
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  color: $black;
+  }
+
+//Here is my attempt at the for loop, but I keep getting error messages//
+// @for $i from 1 through length($weather) {
+   // &:nth-of-type(#{$i}):before {
+    //  content: "#{nth($weather, $i)}";//

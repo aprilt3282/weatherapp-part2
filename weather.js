@@ -1,5 +1,4 @@
-const apiProxy = "https://cors-anywhere.herokuapp.com/"
-const apiURL = "http://api.openweathermap.org/data/2.5/weather"
+const apiProxy = "https://uwpce-weather-proxy.herokuapp.com/data/2.5/weather
 const apiKey = "ad57da1720ec07b47db8b59c86aa8c0f"
 
 let debug = null

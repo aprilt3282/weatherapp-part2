@@ -23,4 +23,10 @@ html {
   #currentlocalWeather:active {
     color: #111; }
 
+ul {
+  list-style-type: none; }
+
+li {
+  color: #111; }
+
 /*# sourceMappingURL=new-weather.css.map */
